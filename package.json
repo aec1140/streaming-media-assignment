@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming Media Homework for IGME-430",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment.git"
+  },
+  "author": "Alex Cook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
