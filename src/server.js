@@ -14,6 +14,12 @@ const onRequest = (request, response) => {
     case '/party.mp4':
       mediaHandler.getParty(request, response);
       break;
+    case '/bling.mp3':
+      mediaHandler.getBling(request, response);
+      break;
+    case '/boy.mp4':
+      mediaHandler.getBoy(request, response);
+      break;
     default:
       htmlHandler.getIndex(request, response);
       break;
