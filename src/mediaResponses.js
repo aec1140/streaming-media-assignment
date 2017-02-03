@@ -60,7 +60,7 @@ module.exports.getBling = (request, response) => {
   loadFile(request, response, '../client/bling.mp3', 'audio/mpeg');
 };
 
-module.exports.getBoy = (request, response) => {
-  loadFile(request, response, '../client/boy.mp4', 'video/mp4');
+module.exports.getBird = (request, response) => {
+  loadFile(request, response, '../client/bird.mp4', 'video/mp4');
 };
 
